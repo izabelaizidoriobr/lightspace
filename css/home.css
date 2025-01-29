@@ -79,7 +79,7 @@ body {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-image: url('/img/main-fundo.png');
+    background-image: url('./img/main-fundo.png');
     background-size: cover;
     background-position: center;
     height: 100vh;
