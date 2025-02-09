@@ -630,7 +630,7 @@ footer {
 
     .service-file {
         grid-template-columns: 1fr 1fr;
-        gap: 20px;
+        gap: 10px;
     }
 
     .dubble-buttons {
@@ -667,7 +667,7 @@ footer {
     }
 
     .cont-btn {
-        padding: 12px 125px;
+        padding: 12px 100px;
     }
 
 
@@ -680,14 +680,18 @@ footer {
         grid-template-columns: 1fr;
         place-items: center;
         background: #36905F;
-        padding: 40px 20px;
-        margin-top: 50px;
+        padding: 10px 10px;
     }
 
     .profile img {
         width: 320px;
         height: 400px;
-        margin-bottom: 24px;
+        padding: 24px;
+        margin-bottom: 32px;
+    }
+
+    .sobre-cont {
+        padding: 24px 24px;
     }
 
     .sobre-cont span {
@@ -709,7 +713,7 @@ footer {
     }
 
     .sobre-btn .cont-btn {
-        padding: 12px 80px;
+        padding: 12px 60px;
     }
 
     .sobre-btn .second-btn {
@@ -723,16 +727,18 @@ footer {
     .abord-title h2 {
         margin-top: 50px;
         font-size: 24px;
-        max-width: 400px;
+        max-width: 360px;
     }
 
     .abrd-txt {
-        grid-template-columns: none;
+        grid-template-columns: 1fr;
+        align-items: center;
     }
 
     .abrd-txt p {
         margin-top: 24px;
         font-size: 16px;
+        max-width: 360px;
     }
 
     .faq-container {
